@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/pptBox.js"></script>
+<link href="css/style.css" rel="stylesheet" />
+<title>精灵宝可梦</title>
+</head>
+
+<body  onload="time()">
+<div class="con">
+  <div class="head">
+    <div class="logo"> <img src="images/logo.png" width="400"  /> </div>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="page1.html">剧情简介</a></li>
+        <li><a href="page2.html">作品欣赏</a></li>
+        <li><a href="juese.html">登场角色</a></li>
+        <li><a href="page3.html">精灵图鉴</a></li>
+        <li><a href="page4.html">在线注册</a></li>
+        <li><a href="page5.html">立即登录</a></li>
+        <li><a href="page6.html">联系留言</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="lunbo"> 
+    <script>
+     var box =new PPTBox();
+     box.width =1000; //宽度
+     box.height =400;//高度
+     box.autoplayer = 3;//自动播放间隔时间
+
+     //box.add({"url":"图片地址","title":"悬浮标题","href":"链接地址"})
+     box.add({"url":"images/d1.png","href":"#","title":"1"})
+     box.add({"url":"images/d2.png","href":"#","title":"2"})
+     box.add({"url":"images/d3.png","href":"#","title":"3"})
+     box.show();
+    </script> 
+  </div>
+  <div class="clear"></div>
+  <div class="main">
+    <div id="showtime"> 
+      <script language=Javascript> 
+  function time(){
+    //获得显示时间的div
+    t_div = document.getElementById('showtime');
+   var now=new Date()
+    //替换div内容 
+   t_div.innerHTML = "现在是"+now.getFullYear()
+    +"年"+(now.getMonth()+1)+"月"+now.getDate()
+    +"日"+now.getHours()+"时"+now.getMinutes()
+    +"分"+now.getSeconds()+"秒";
+    //等待一秒钟后调用time方法，由于settimeout在time方法内，所以可以无限调用
+   setTimeout(time,1000);
+  }
+</script></div>
+    <div class="clear"></div>
+    <p></p>
+    <h2>精灵宝可梦 </h2>
+    <p></p>
+    <p></p>
+    <p>《精灵宝可梦》（ポケモン），改编自精灵宝可梦系列游戏。是由汤山邦彦等执导，园田英树、大桥志吉等编剧，松本梨香、大谷育江等配音的电视动画系列。</p>
+    <p>动画的日文版根据游戏原作版本，可按照时间顺序划分为六部：《精灵宝可梦：无印篇》、《精灵宝可梦：超世代》、《精灵宝可梦：钻石与珍珠》、《精灵宝可梦：超级愿望》《精灵宝可梦XY》和2016年11月17日开始播放的《精灵宝可梦：太阳 & 月亮》。</p>
+    <p>除电视动画系列外，精灵宝可梦系列作品同样包括一些旁支作品：描述非主角一行的角色的故事的周刊精灵宝可梦放送局、精灵宝可梦星期天、Pokémon Smash!等。</p>
+    <h2>剧情简介</h2>
+    <p>在无印篇中，新手训练家小智从大木博士那里获得的是一只勉勉强强又喜怒无常又不喜欢进入精灵球的皮卡丘，小智离开家乡真新镇，在关都地方展开他的旅程。在赢得皮卡丘的信任后，小智认真地开展他的旅程来挑战各地的道馆，参加宝可梦联盟。在旅途中加入小智的是两位良师益友——小刚和小霞。</p>
+    <p>立志成为宝可梦大师的小智带着皮卡丘来到了卡洛斯地区，心中怀着新的理想告别了合众地区的同伴天桐和艾莉丝，在卡洛斯地区与新认识的旅行伙莎莉娜、希特隆、柚莉嘉三人和新的宝可梦相遇的冒险故事。</p>
+    <p></p>
+    <p>小智和皮卡丘前往阿罗拉地区，获得Z手环，一起与同学莉莉艾、卡奇、水莲、玛奥、马玛内体验校园生活，目标为毕业。</p>
+    <h2>精灵图鉴 </h2>
+    <p></p>
+    <p></p>
+    <div class="main_list">
+      <ul>
+        <li><a href="#"><img src="images/q1.png" /></a></li>
+        <li><a href="#"><img src="images/q2.png" /></a></li>
+        <li><a href="#"><img src="images/q3.png" /></a></li>
+        <li><a href="#"><img src="images/q4.png" /></a></li>
+        <li><a href="#"><img src="images/q5.png" /></a></li>
+      </ul>
+    </div>
+     
+  </div>
+  <div class="clear"></div>
+  <div class="foot">
+    <p>版权所有：张鸿博</p>
+    <p>All Rights Reserved</p>
+  </div>
+  <div class="clear"></div>
+</div>
+</body>  
+</html>

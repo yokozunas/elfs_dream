@@ -1,0 +1,95 @@
+﻿
+
+/*----------------------common-------------------------*/
+*{   margin:0; padding:0; font-family:Microsoft YaHei;}
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+li{ list-style-type:none;}
+.ofh{overflow:hidden;}
+.center{ text-align:center;}
+.em{ text-indent:2em;}
+.p10{ padding:10px;}
+body{ background:url(../images/bj.jpg) top center fixed repeat;}
+
+/*----------------------con-------------------------*/
+.con{ width:1000px; padding:10px; height:auto; margin:10px auto; background:#fff; background-color:rgba(255,255,255,0.5);-moz-border-radius:10px;border-radius:10px;}
+/*----------------head-----------------*/
+.head{ width:1000px; height:auto; margin:auto;}
+.logo{ width:400px; height:auto;margin:auto;}
+
+.nav{ width:1000px; height:40px; margin:5px auto;background-color:#ffcb05;-moz-border-radius:5px;border-radius:5px;}
+.nav ul{ padding-left:20px;}
+.nav li{ float:left; padding:5px 22px; }
+.nav li a{ font-size:18px; line-height:30px; color:#fff;}
+.nav li a:hover{ color:#fff; text-decoration:none;}
+.nav li:hover{ background-color:#3067b9}
+.nav li:hover a{ color:#fff;}
+
+.lunbo{ width:1000px; height:auto; margin:5px auto;}
+.mainbox{    overflow:hidden;    position:relative;}
+.flashbox{   overflow:hidden;    position:relative;}
+.imagebox{    text-align:right;position:relative;}
+
+.bitdiv{display:inline-block;width:12px;height:12px;margin:0 10px 10px 0px;cursor:pointer;float:right;}
+.defimg{background-image:url(../images/02.png)}
+.curimg{background-image:url(../images/01.png)}
+
+/*----------------main-----------------*/
+.main{ width:1000px; height:auto; margin:10px auto; font-size:14px; line-height:24px; color:#555;}
+.main h2{font-size:22px; line-height:50px; color:#3067b9; border-bottom:1px dotted #3067b9; margin-bottom:10px;}
+.main p{font-size:14px; line-height:24px; color:#555; text-indent:2em;}
+.main p strong{font-size:16px; line-height:36px; color:#3067b9; text-indent:2em;}
+
+.main_list{ width:1000px; height:auto; }
+.main_list li{ width:180px;height:180px; float:left; margin:8px;}
+.main_list li:hover{}
+.main_list li img{ width:180px; height:180px; }
+
+
+
+/*-----------------zhuce--注册--------------*/
+.zhuce{width:650px; height:auto; margin:50px auto; font-size:16px; color:#222;}
+.zhuce_info{width:650px; height:30px; margin:10px auto;}
+.input{ float:right; width:550px; height:20px; padding:5px; border:1px solid #333; font-size:14px; color:#333;}
+.subout{width:520px; height:50px; margin:auto; font-size:18px; color:#222;}
+.sub{width:200px; height:25px; padding:5px; margin:20px; float:left; background-color:#ffcb05; text-align:center; }
+.sub:hover{ background-color:#3067b9;}
+.sub a{ font-size:18px; color:#fff;}
+
+
+.login_list{ width:360px; height:auto; margin:auto; }
+.login_list h3{ padding:10px;font-size:18px; line-height:30px; color:#333;font-weight:normal; }
+.login_list h3 span a{font-size:18px; line-height:30px; color:#333;font-weight:normal; }
+.login_list h3 span a:hover{font-size:18px; line-height:30px; color:#f00;font-weight:normal; }
+.login_list li{ width:80px;height:80px; float:left; margin:20px;}
+.login_list li img{width:80px;height:80px; }
+
+
+.boder { clear:both;border-bottom:1px dotted #3067b9; margin-bottom:10px;}
+
+
+
+
+/*----------------foot-----------------*/
+.foot{ width:1000px; height:50px; margin:10px auto; padding-top:10px; border-top:3px solid #ffcb05; text-align:center; font-size:14px; line-height:24px; color:#666;}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
